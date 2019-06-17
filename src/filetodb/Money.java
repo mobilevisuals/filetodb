@@ -12,10 +12,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-/**
- *
- * @author eyvind
- */
+
 @Entity
 public class Money implements Serializable {
 
