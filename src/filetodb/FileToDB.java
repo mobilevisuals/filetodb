@@ -63,7 +63,7 @@ public class FileToDB {
                             id = Long.parseLong(s1);
                             amount = Double.parseDouble(s2);
 
-                        } catch (NumberFormatException e) {//not catch ??
+                        } catch (NumberFormatException e) {
                             e.printStackTrace();
                         }
 
@@ -78,9 +78,9 @@ public class FileToDB {
             }
 
         } catch (FileNotFoundException e) {
-            e.printStackTrace();//rollback anrop??
+            e.printStackTrace();
         } catch (IOException e1) {
-            e1.printStackTrace();//rollback anrop??
+            e1.printStackTrace();
         }
     }
 
